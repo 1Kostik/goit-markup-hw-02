@@ -1,0 +1,127 @@
+.header {
+    background: #FFFFFF;
+}
+.hero_namer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+/* display: flex; */
+/* align-items: center; */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+color: #2E2F42;
+}
+.link {
+    color: #2E2F42;
+}
+.link_contacts {
+    color: #2E2F42;
+}
+.link_contacts:hover {
+color: #4D5AE5;
+}
+.link:hover {
+    color: #4D5AE5;
+}
+.buttons:hover {
+    color:#00010b;
+}
+.buttons:focus {
+    color: red;
+}
+.link_contacts{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.list {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+body {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color:#E5E5E5;
+}
+.hero {
+    background: #2E2F42;
+}
+
+.buttons {
+    background: #4D5AE5;
+}
+.buttons {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+.title_cards {
+width: 264px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team {
+    background: #F4F4FD;
+}
+.team_cards {
+background:#FFFFFF;
+}
+.footer {
+    background: #2E2F42;
+}
+.studio_footer {
+    color: #F4F4FD;
+}
+.tex_footer {
+    color: #E7E9FC;
+}
