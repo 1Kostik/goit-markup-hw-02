@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,22 +16,24 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <title>Document</title>
 </head>
 
 <body>
     <!--header-->
-    <header>
+    <header class="header">
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+            <a href="./portfolio.html" target="_blank" class="link"><span class="logo">Web</span><span
+                    class="studio">Studio</span></a>
+            <ul class="list">
+                <li><a href="./index.html" class="link">Studio</a></li>
+                <li><a href="" class="link">Portfolio</a></li>
+                <li><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="#">info@devstudio.com</a></li>
-            <li><a href="#">+11 (000) 111-11-11</a></li>
+        <ul class="list">
+            <li><a href="" class="link-contacts">info@devstudio.com</a></li>
+            <li><a href="" class="link-contacts">+11 (000) 111-11-11</a></li>
         </ul>
     </header>
     <!--main-->
@@ -40,13 +42,13 @@
         <section>
             <h2></h2>
            <p>
-                <ul>
+                <ul class="list">
                   <li>
-                    <button type="button">All</button>
-                    <button type="button">Web Site</button>
-                    <button type="button">App</button>
-                    <button type="button">Design</button>
-                    <button type="button">Marketing</button>
+                    <button type="button" class="bts">All</button>
+                    <button type="button" class="bts">Web Site</button>
+                    <button type="button" class="bts">App</button>
+                    <button type="button" class="bts">Design</button>
+                    <button type="button"class="bts">Marketing</button>
                   </li>
                </ul>
            </p>
@@ -54,7 +56,7 @@
         <!--row1-->
         <section>
             <h2></h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/img11.jpg" alt="menu app" width="120">
                     <h3>Banking App Interface Concept</h3>
@@ -62,29 +64,26 @@
                         App
                     </p>
                 </li>
-            <li>
-                <p>
-                    14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
-                    Cloud Storage App
-                </p> 
-                <img src="./images/img12.jpg" alt="cashless payment" width="120">
-                <h3>Cashless Payment</h3>
-                <p>
-                    Marketing
-                </p>
-            </li>
-            <li>
-                <img src="./images/img13.jpg" alt="Meditaion App" width="120">
-                <h3>Meditaion App</h3>
-                <p>
-                    App
-                </p>
-            </li>
+                <li>
+                    <img src="./images/img121.jpg" alt="cashless payment" width="120">
+                    <h3>Cashless Payment</h3>
+                    <p>
+                        Marketing
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/img13.jpg" alt="Meditaion App" width="120">
+                    <h3>Meditaion App</h3>
+                    <p>
+                        App
+                    </p>
+                </li>
+            </ul>    
         </section>
         <!--row2-->
         <section>
             <h2></h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/img14.jpg" alt="Taxi Service app" width="120">
                     <h3>Taxi Service</h3>
@@ -106,11 +105,12 @@
                         Marketing
                     </p>
                 </li>
+            </ul>    
         </section>
         <!--row3-->
         <section>
             <h2></h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/img17.jpg" alt="Instagram Stories Concept" width="120">
                     <h3>Instagram Stories Concept</h3>
@@ -132,12 +132,13 @@
                         WebSite
                     </p>
                 </li>
+            </ul>
         </section>
     </main>
     <!--Footer-->
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>
+    <footer class="footer">
+        <a href="./index.html" class="link"><span class="logo">Web</span><span class="studio-footer">Studio</span></a>
+        <p class="tex-footer">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
     </footer>
